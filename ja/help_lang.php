@@ -53,21 +53,21 @@ $lang = array (
 	'v_help_arch_1'		=> 'アーカイブ[PRJS]',
 	'v_help_arch_2'		=> '使用されなくなった[PRJS]はアーカイブできます。',
 	'v_help_arch_3'		=> 'アーカイブされた[PRJ]は変更（編集や削除）することができず、パスワードを追加したり削除したりすることもできません。',
-	'v_help_arch_4'		=> '[PRJ]をアーカイブするには、[PRJ]画面の「アーカイブ」ボタンをクリックしてください。(管理者か[PRJ]の管理者である場合のみ可能)　また、[PRJ]画面の「アーカイブ解除」ボタンをクリックすると、[PRJ]のアーカイブを解除する（再びアクティブにする）ことができます。',
+	'v_help_arch_4'		=> '[PRJ]をアーカイブするには、[PRJ]画面の「アーカイブ」ボタンをクリックしてください。(管理者か[PRJ]の管理者である場合のみ可能)　また、[PRJ]画面の「アーカイブ解除」ボタンをクリックすると、[PRJ]のアーカイブを解除する（再び有効にする）ことができます。',
 	
 	// Advanced Search Help
 	'c_help_adv_title'		=> '高度な検索ヘルプ',
 
-	'v_help_adv_desc_1'		=> 'Team Password Managerで<strong>passwords</strong>を検索する場合、検索結果を絞り込める特別な<strong>operators</strong> を使用することができます。検索オペレーターは、パスワードを迅速かつ正確に見つけることができる特別な単語です。検索オペレーターは、メインのパスワードリストの検索ボックス、[PRJ]内のパスワード検索ボックス、および私のパスワードリスト検索ボックスで使用できます。',
-	'v_help_adv_desc_2'		=> 'メインパスワードリスト検索ボックスとマイパスワードリスト検索ボックスでは、検索ボックスの右側にあるドロップダウンボックスをクリックすることで、詳細検索フォームを使用することもできます。',
+	'v_help_adv_desc_1'		=> 'Team Password Managerで<strong>passwords</strong>を検索する場合、検索結果を絞り込める特別な<strong>operators</strong> を使用することができます。検索演算子は、パスワードを迅速かつ正確に見つけることができる特別な単語です。検索オペレーターは、メインのパスワードリストの検索ボックス、[PRJ]内のパスワード検索ボックス、およびマイパスワードリスト検索ボックスで使用できます。',
+	'v_help_adv_desc_2'		=> 'メインパスワードリスト検索ボックスとマイパスワードリスト検索ボックスでは、検索ボックスの右側にあるドロップダウンボックスをクリックすることで、高度な検索フォームを使用することもできます。',
 	'v_help_adv_desc_3'		=> 'ここにTeam Password Managerのパスワード検索オペレータのリストがあります。',
 
-	'v_help_adv_operator'	=> 'オペレーター',
+	'v_help_adv_operator'	=> '演算子',
 	'v_help_adv_definition'	=> '定義',
 	'v_help_adv_example'	=> '例',
 	'v_help_adv_use_in'		=> '用途',
 
-	'v_help_adv_string'		=> 'ストリング',
+	'v_help_adv_string'		=> '文字列',
 	'v_help_adv_main'		=> 'メイン',
 	'v_help_adv_main_desc'	=> 'メインパスワードリスト検索ボックス',
 	'v_help_adv_project'	=> '[PRJ]',
@@ -77,42 +77,42 @@ $lang = array (
 	'v_help_adv_or'			=> 'または',
 	'v_help_adv_equiv_no_operator' => '演算子を使わないのと同じ',
 	'v_help_adv_my_prj' 	=> 'マイプロジェクト',
-	'v_help_adv_use_shown'	=> '図のように使用する',
+	'v_help_adv_use_shown'	=> '使用方法は以下の通りです',
 
-	'v_help_adv_def_any' 	=> '次のフィールドに文字列が含まれるパスワードを検索：名前、ノート、アクセス、ユーザー名、Eメール、すべてのカスタムフィールドとタグ',
-	'v_help_adv_def_basic' 	=> '次のフィールドに文字列が含まれるパスワードを検索：名前、メモ、アクセス、ユーザー名、電子メール',
+	'v_help_adv_def_any' 	=> '次のフィールドに文字列が含まれるパスワードを検索：名前、備考、アクセス、ユーザー名、電子メール、すべてのカスタムフィールドとタグ',
+	'v_help_adv_def_basic' 	=> '次のフィールドに文字列が含まれるパスワードを検索：名前、備考、アクセス、ユーザー名、電子メール',
 	'v_help_adv_def_custom' => 'カスタムフィールドのいずれかにその文字列を含むパスワードを検索する',
 	'v_help_adv_def_name' 	=> '名前フィールドに文字列を含むパスワードを検索する',
-	'v_help_adv_def_notes' 	=> 'メモ欄にその文字列を含むパスワードを検索する',
+	'v_help_adv_def_notes' 	=> '備考フィールドにその文字列を含むパスワードを検索する',
 	'v_help_adv_def_access' => 'アクセスフィールドに文字列を含むパスワードを検索する',
 	'v_help_adv_def_username' => 'ユーザー名フィールドにその文字列を含むパスワードを検索する。',
-	'v_help_adv_def_email' 	=> 'Eメールフィールドにその文字列を含むパスワードを検索する',
-	'v_help_adv_def_username_email' => 'ユーザー名またはE-mailフィールドにその文字列を含むパスワードを検索する。',
+	'v_help_adv_def_email' 	=> '電子メールフィールドにその文字列を含むパスワードを検索する',
+	'v_help_adv_def_username_email' => 'ユーザー名または電子メールフィールドにその文字列を含むパスワードを検索する。',
 	'v_help_adv_def_in' 	=> '[PRJ]名が文字列に一致するパスワードを検索する。',
-	'v_help_adv_def_tag' 	=> '文字列にマッチするタグを持つパスワードを検索する。',
-	'v_help_adv_def_file' 	=> 'ファイル名またはノート(パスワードのノートではなくファイルのノート)が文字列にマッチするファイルを持つパスワードを検索する。参照：has:file',
-	'v_help_adv_def_has_file' => '1つ以上のファイルを持つパスワードを検索する。参照：file:文字列',
+	'v_help_adv_def_tag' 	=> '文字列に一致するタグを持つパスワードを検索する。',
+	'v_help_adv_def_file' 	=> 'ファイル名または備考(パスワードの備考ではなくファイルの備考)が文字列にマッチするファイル備考を持つパスワードを検索する。参照：has:file',
+	'v_help_adv_def_has_file' => '1つ以上のファイルを持つパスワードを検索する。参照：file:string',
 	'v_help_adv_def_has_expiry'	=> '有効期限があるパスワードを検索する',
 	'v_help_adv_def_has_external' => '外部で共有されているパスワードを検索する',
 	'v_help_adv_def_is_active' 	=> '有効な（アーカイブされていない）パスワードを検索する',
 	'v_help_adv_def_is_archived' => 'アーカイブされたパスワードの検索',
-	'v_help_adv_def_is_favorite' => '好きなパスワードを検索する（検索したユーザーの）',
+	'v_help_adv_def_is_favorite' => '（検索したユーザーの）お気に入りのパスワードを検索する',
 	'v_help_adv_def_is_locked' 	=> 'ロックされたパスワードの検索',
 
 	'v_help_adv_notes'		=> '備考',
 
-	'v_help_adv_notes_1'	=> '検索は常に大文字と小文字を区別しない。',
-	'v_help_adv_notes_2'	=> 'If the string being searched is composed of more than one word, the search will match if all the words are found. Example: name: "new api" will find passwords with the following names: "This is a new password that uses the api" and "APIs for new service".',
-	'v_help_adv_notes_3'	=> '演算子を組み合わせてAND検索を行うことができます。例：file:.pdf is:favorite (pdfファイルを含むお気に入りのパスワードを検索)。',
-	'v_help_adv_notes_4'	=> 'Use "" to group words in the same operator. Example: name:"server ftp"',
-	'v_help_adv_notes_5'	=> "By default, searches are performed with beginning and ending wildcards. In SQL it's like this: LIKE '%string%'. This will search any text that contains any part of string. If you want to search for an exact match you can use [ and/or ]. Example: username:[root] will search for passwords that have root (and only root) as username. You can use both [ ] (exact match), only [ (strings that begin with) or only ] (strings that end with). Example: email:[info@ will search for passwords that begin with info@ in the email field.",
+	'v_help_adv_notes_1'	=> '検索は常に大文字小文字およびアクセントを区別しない。',
+	'v_help_adv_notes_2'	=> 検索する文字列が複数の単語で構成されている場合、すべての単語が見つかると検索が一致します。例: name: ”新しいAPI” は、次の名前を持つパスワードを見つけます：”これはAPIを使用する新しいパスワードです” および ”新しいサービスのためのAPI”',
+	'v_help_adv_notes_3'	=> '演算子を組み合わせてAND検索を行うことができます。例：file:.PDF:お気に入り (PDFファイルを含むお気に入りのパスワードを検索)。',
+	'v_help_adv_notes_4'	=> '同じオペレーターで単語をグループ化するには、"" を使用します。例: name:"サーバーFTP"',
+	'v_help_adv_notes_5'	=> "デフォルトでは、検索は先頭および末尾のワイルドカードで実行されます。SQLでは次のようになります：LIKE '%string%'。これは、文字列の一部を含む任意のテキストを検索します。正確に一致するものを検索したい場合は、[ および/または ] を使用できます。例：username:[root] は、ユーザー名が root（および root のみ）であるパスワードを検索します。[ ]（正確一致）、[（文字列の先頭が一致）または] （文字列の末尾が一致）を使用できます。例：email:[info@ は、メールフィールドで info@ で始まるパスワードを検索します。",
 
 	// Export / import
-	'c_help_ei_title'		=> 'パスワードのエクスポート/インポート',
+	'c_help_ei_title'		=> 'パスワードのエクスポート/インポートのヘルプ',
 
 	'v_help_exp_title'		=> 'パスワードのエクスポート',
-	'v_help_exp_desc_1'		=> '<strong>チームパスワード管理者</strong>させる<strong>管理/IT</strong>ユーザーは、すべてのパスワード（または選択した[PRJ]のパスワード）をCSV（カンマ区切り値）ファイルにエクスポートします。',
-	'v_help_exp_desc_2'		=> 'このファイルには、各パスワードについて以下の情報が含まれる。',
+	'v_help_exp_desc_1'		=> '<strong>Team Password Manager</strong>は<strong>Admin/IT</strong>ユーザーが、すべてのパスワード（または選択した[PRJ]のパスワード）をCSV（カンマ区切り値）ファイルにエクスポートすることを可能にします。',
+	'v_help_exp_desc_2'		=> 'このファイルには、各パスワードについて以下の情報が含まれます。',
 
 	'v_help_exp_prj_name'	=> '[PRJ]名',
 	'v_help_exp_pwd_name'	=> 'パスワード名',
@@ -129,50 +129,50 @@ $lang = array (
 	'v_help_exp_edate_format' => 'フォーマット',
 	'v_help_exp_edate_formatmdy' => '年-月-日',
 
-	'v_help_exp_sorted'		=> 'パスワードは[PRJ]名とパスワード名でソートされる。',
-	'v_help_exp_enclosed'	=> 'Each value is enclosed in double quotes (") and separated by a comma (,). The file is UTF-8 encoded.',
-	'v_help_exp_double_quotes' => 'Double quotes (") are encoded as \" and backslashes (\) as \\\\.',
+	'v_help_exp_sorted'		=> 'パスワードは[PRJ]名とパスワード名で並び替えられる。',
+	'v_help_exp_enclosed'	=> '各値はダブルクオーテーション（"）で囲まれ、コンマ（,）で区切られています。ファイルはUTF-8エンコードされています。',
+	'v_help_exp_double_quotes' => 'ダブルクオーテーション（"）は " としてエンコードされ、バックスラッシュ（\）は \\ としてエンコードされます。',
 
 	'v_help_exp_click'		=> 'パスワードのエクスポートはこちら',
 
 	'v_help_imp_title'		=> 'パスワードのインポート',
-	'v_help_imp_desc_1'		=> '<strong>チームパスワード管理者</strong>させる<strong>管理/IT</strong>ユーザーは、CSV（カンマ区切り値）ファイルからパスワードをインポートします。このファイルには以下のプロパティが必要です。',
-	'v_help_imp_desc_2'		=> 'Each value must be enclosed in double quotes (") and separated by a comma (,).',
-	'v_help_imp_desc_3'		=> 'ファイルはUTF-8でエンコードされていなければならない。',
-	'v_help_imp_desc_4'		=> 'ファイルの各行は、以下のフィールドを持つパスワードでなければならない。',
+	'v_help_imp_desc_1'		=> '<strong>Team Password Manager</strong>は<strong>Admin/IT</strong>ユーザーが、CSV（カンマ区切り値）ファイルからパスワードをインポートすることを可能にします。このファイルには以下のプロパティが必要です。',
+	'v_help_imp_desc_2'		=> '各値はダブルクオーテーション（"）で囲み、コンマ（,）で区切る必要があります。',
+	'v_help_imp_desc_3'		=> 'ファイルはUTF-8でエンコードされていなければなりません。',
+	'v_help_imp_desc_4'		=> 'ファイルの各行は、以下のフィールドを持つパスワードでなければなりません。',
 	'v_help_imp_optional'	=> 'オプション',
 	'v_help_imp_desc_5'		=> 'フィールドヘッダがあってはならない（存在する場合は、通常のパスワードとしてインポートされる）。',
 	'v_help_imp_desc_6'		=> 'ファイルの拡張子はcsvでなければならない。',
-	'v_help_imp_desc_7'		=> 'If a field contains a double quote ("), a backslash must be prepended to it: \". So, for instance, the text "inside quotes", would have to be written like this in the csv file: ...,"<strong>\"inside quotes\"</strong>",...',
-	'v_help_imp_desc_8'		=> '同様に、フィールドにバックスラッシュ(∕)が含まれる場合、その前にもう1つバックスラッシュを付けなければならない：\\.',
+	'v_help_imp_desc_7'		=> 'フィールドにダブルクオーテーション（"）が含まれている場合、前にバックスラッシュを付ける必要があります："。例えば、テキスト "inside quotes" は、CSVファイルでは次のように書く必要があります：...,"<strong>"inside quotes"</strong>",...',
+	'v_help_imp_desc_8'		=> '同様に、フィールドにバックスラッシュ(\)が含まれる場合、その前にもう1つバックスラッシュを付けなければならない：\\.',
 
 	'v_help_imp_sample_1'	=> 'サンプルファイル',
-	'v_help_imp_sample_2'	=> 'this sample file contains 2 [PRJS] ("Software" and "Hardware") and 2 passwords in each', // Do not translate "Software" and "Hardware"
+	'v_help_imp_sample_2'	=> 'このサンプルファイルには、2つの [PRJ]（「Software」と「Hardware」）と、それぞれに2つのパスワードが含まれています。', // Do not translate "Software" and "Hardware"
 
-	'v_help_imp_how_1'		=> '輸入の仕組み',
+	'v_help_imp_how_1'		=> 'インポートの仕組み',
 	'v_help_imp_how_2'		=> 'まず、インポートするパスワードのファイルがサーバーにアップロードされる。',
-	'v_help_imp_how_3'		=> "The import process will then read the file line by line and will look for the '[PRJ] name' from each line in the database. If the [PRJ] exists, it will import the password in the existing [PRJ]. If the [PRJ] doesn't exist it will be created (and then the password imported to the new [PRJ]).",
-	'v_help_imp_how_4'		=> "[PRJS] created by the import process will have 'Grant access to this [PRJ] to the following users and/or groups.' as their security setting (and no user or group checked).",
+	'v_help_imp_how_3'		=> "インポートプロセスは、ファイルを1行ずつ読み込み、各行の '[PRJ] 名' をデータベースで検索します。[PRJ] が存在する場合は、その既存の [PRJ] にパスワードをインポートします。[PRJ] が存在しない場合は、新しく作成されます。（その後、新しい [PRJ] にパスワードがインポートされます）",
+	'v_help_imp_how_4'		=> "インポートプロセスによって作成された [PRJS] には、セキュリティ設定として「この [PRJ] へのアクセスを次のユーザーおよび/またはグループに付与する」が設定されます。（ユーザーやグループはチェックされていません）",
 	'v_help_imp_how_5'		=> 'パスワード名が既に[PRJ]に存在する場合は、インポートされません。',
 	'v_help_imp_how_6'		=> 'ご覧のように、データベース内の情報は上書きされず、新しい[PRJS]またはパスワードのみがインポートされます。',
 	'v_help_imp_how_7'		=> '処理中、メインログが更新され、各行で何が起こったかが詳細に記録されます。最後にログファイルとしてダウンロードできます。',
 	'v_help_imp_how_8'		=> 'プロセスの最後に、アップロードされたファイルは削除されます（セキュリティ上の理由から）。',
 
 	'v_help_imp_other_1'	=> 'その他の要件',
-	'v_help_imp_other_2'	=> "For the import process to work, a folder called 'import' must exist in the root folder of Team Password Manager. Also, this folder must be writable. The import process will prompt the user to create this folder if it doesn't exist.",
+	'v_help_imp_other_2'	=> "インポートプロセスが機能するためには、Team Password Manager のルートフォルダーに 'インポート' という名前のフォルダーが存在する必要があります。また、このフォルダーは書き込み可能でなければなりません。フォルダーが存在しない場合、インポートプロセスはユーザーにこのフォルダーを作成するように促します。",
 
 	'v_help_imp_click'		=> 'パスワードのインポートはこちら',
 
 	// Export/Import My Passwords Help
-	'c_help_eimy_title'		=> 'パスワードのエクスポート/インポート ヘルプ',
+	'c_help_eimy_title'		=> 'マイパスワードのエクスポート/インポートのヘルプ',
 
-	'v_help_exp_my_title'	=> 'パスワードのエクスポート',
-	'v_help_exp_my_desc_1'	=> '<strong>Team Password Manager</strong> lets users export all the passwords from the "My Passwords" section to a CSV (Comma-separated Values) file.',
-	'v_help_exp_my_sorted'	=> 'パスワードはパスワード名でソートされる。',
+	'v_help_exp_my_title'	=> 'マイパスワードのエクスポート',
+	'v_help_exp_my_desc_1'	=> '<strong>Team Password Manager</strong>は、ユーザーが「マイパスワード」セクションからすべてのパスワードを CSV（カンマ区切り値）ファイルにエクスポートすることを可能にします。',
+	'v_help_exp_my_sorted'	=> 'パスワードはパスワード名で並び替えられます。',
 	'v_help_exp_my_click'	=> 'すべてのパスワードをエクスポートするにはここをクリック',
 
 	'v_help_imp_my_title'	=> 'パスワードのインポート',
-	'v_help_imp_my_desc_1'	=> '<strong>Team Password Manager</strong> lets users import passwords to the "My Passwords" section from a CSV (Comma-separated Values) file. This file must have the following properties',
+	'v_help_imp_my_desc_1'	=> '<strong>Team Password Manager</strong>は、ユーザーが「マイパスワード」セクションからすべてのパスワードを CSV（カンマ区切り値）ファイルにインポートすることを可能にします。 このファイルには、以下の特性が必要です。',
 
 	'v_help_imp_my_sample_2' => 'このサンプルファイルには4つのパスワードが含まれています。',
 
@@ -182,7 +182,7 @@ $lang = array (
 	'v_help_imp_my_click'	=> 'パスワードをインポートするにはここをクリック',
 
 	// v6
-	'v_help_adv_notes_6' 	=> 'Search multiple tags: when using the tag: operator you can search passwords that have several tags separating the tags with a comma, like this: tag:"t1, t2, t3". This will search all the passwords that have tags t1, t2 and t3. Note the use of quotes as we have spaces between the commas and the tags.',
+	'v_help_adv_notes_6' 	=> '複数のタグを検索するには、tag: オペレーターを使用して、タグをカンマで区切って検索できます。例えば、tag:"t1, t2, t3" のように記述します。これにより、タグt1、 t2,、t3を持つすべてのパスワードが検索されます。カンマとタグの間にスペースがあるため、引用符を使用することに注意してください。',
 
 	// v9
 	'v_help_adv_def_is_not_locked' => 'ロックされていないパスワードを検索する',
