@@ -67,12 +67,12 @@ $lang = array (
 	'c_set_import_csrf_error'		=> 'パスワードのインポートでCSRFエラーが発生しました。',
 
 	// v15
-	'v_myset_trash_mypwd_confirm'	=> 'すべてのパスワードをゴミ箱へ？',
-	'c_myset_trash_all_mypwd_done'	=> 'すべてのマイパスワードはゴミ箱に移動しました。',
+	'v_myset_trash_mypwd_confirm'	=> 'すべてのパスワードをゴミ箱へ移動しますか',
+	'c_myset_trash_all_mypwd_done'	=> '私のパスワードはすべてゴミ箱に移動しました。',
 
 	'c_myset_empty_my_trash'		=> 'ゴミ箱を空にする',
-	'c_myset_trash_bin_already_empty' => 'ゴミ箱はもう空っぽだ。',
-	'v_myset_empty_trash_confirm'	=> 'ゴミ箱を空にする（その中のパスワードをすべて永久に削除する）？',
+	'c_myset_trash_bin_already_empty' => 'ゴミ箱は空です。',
+	'v_myset_empty_trash_confirm'	=> 'ゴミ箱を空にしますか（その中のパスワードをすべて永久に削除する）',
 	'c_myset_empty_trash_error'		=> 'ゴミ箱を空にする際にエラーが発生しました。',
 	'c_myset_empty_my_trash_done'	=> 'ゴミ箱が空になりました。',
 	'c_myset_empty_trash_csrf_error' => 'ゴミ箱を空にする際にCSRFエラーが発生しました。もう一度お試しください。',
