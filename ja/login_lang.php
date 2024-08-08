@@ -4,20 +4,20 @@ $lang = array (
 	// Controllers
 	'c_login_sign_in_title'			=> 'サインイン',
 	'c_login_session_expired'		=> 'サインインセッションの有効期限が切れました。',
-	'c_login_username_pwd_incorrect' => '入力したユーザー名またはパスワードが間違っている',
+	'c_login_username_pwd_incorrect' => '入力したユーザー名またはパスワードが間違っています',
 
 	'c_login_auth_code_not_valid'	=> '認証コードが無効',
 	'c_login_session_expired'		=> 'セッションの有効期限が切れました。',
 
 	'c_login_email'					=> 'Eメールアドレス',
 	'c_login_new_pwd'				=> '新しいパスワード',
-	'c_login_repeat_new_pwd'		=> '新しいパスワードを繰り返す',
+	'c_login_repeat_new_pwd'		=> '新しいパスワードをもう一度入力してください',
 
-	'c_login_reset_email_1'			=> 'パスワードの再設定方法を記載したEメールが送信されました。',
-	'c_login_reset_email_2'			=> "Please check your email client. Check your spam folder if you don't find the message in you inbox folder.",
-	'c_login_reset_failed_1'		=> '入力されたアドレスへのメール送信にエラーが発生しました。',
+	'c_login_reset_email_1'			=> 'パスワードの再設定方法を記載したEメールを送信しました。,
+	'c_login_reset_email_2'			=> '「ご自分のEメールをご確認ください。メッセージが見当たらない場合は、迷惑メールフォルダもご確認ください。」',
+	'c_login_reset_failed_1'		=> '入力されたアドレスへメールを送信する際にエラーが発生しました。',
 	'c_login_contact_admin'			=> '管理者にご連絡ください。',
-	'm_usr_reset_msg_1'				=> 'このメッセージは、Team Password Managerのインストールから、パスワードリセットのリクエストに対して送信されます。',
+	'm_usr_reset_msg_1'				=> 'このメッセージは、Team Password Managerから、パスワードリセットのリクエストに対して送信されます。',
 	'm_usr_reset_msg_2'				=> 'パスワードをリセットするには、以下のリンクをクリックするか、ブラウザのアドレスバーにコピー＆ペーストしてください：',
 	'c_login_pwd_reset'				=> 'パスワードのリセット',
 	'c_login_reset_in_ldap_server'	=> 'LDAPサーバーでパスワードをリセットしてください。',
@@ -40,9 +40,9 @@ $lang = array (
 
 	'v_login_back_sign_in'			=> 'サインインに戻る',
 
-	'v_login_forgot_pwd_enter_email' => "Enter your email address and you'll receive instructions on how to reset your password",
+	'v_login_forgot_pwd_enter_email' => '「ご自分のEメールアドレスを入力してくだしあ。パスワードをリセットする方法についてお知らせします。」',
 
-	'v_login_submit'				=> '投稿する',
+	'v_login_submit'				=> '送信する',
 
 	'v_login_forgot_pwd_enter_data'	=> 'パスワードをリセットするには、以下のデータを入力してください。',
 	'v_login_8charsmin'				=> '8文字以上',
@@ -56,7 +56,7 @@ $lang = array (
  	'm_ipb_automated_message' 		=> 'これはTeam Password Managerからの自動メッセージです。',
 
  	// v7
- 	'm_set_new_version_available'	=> '新バージョン', // Same as in settings_lang.php
+ 	'm_set_new_version_available'	=> '新バージョンが利用可能', // Same as in settings_lang.php
 
  	// v9
  	'v_login_password_reset_disabled' => 'パスワードリセットが無効になっています。管理者に連絡してください。',
@@ -73,33 +73,33 @@ $lang = array (
 
  	// v14
  	// ** Same as in users_lang **
- 	'v_upr_same'					=> 'ユーザー名やメールアドレスの一部にはできない',
+ 	'v_upr_same'					=> 'ユーザー名やメールアドレスの一部にはできません',
 	'v_upr_min_len'					=> '最小 %d 文字', // %d gets replaced by a number
 	'v_upr_contain' 				=> '少なくとも以下を含むこと',
 	'v_upr_uppercase'				=> '大文字1文字<code>A-Z</code>',
 	'v_upr_lowercase'				=> '小文字1文字<code>a-z</code>',
-	'v_upr_number' 					=> '一<code>0-9</code>',
-	'v_upr_symbol' 					=> '一文字',
+	'v_upr_number' 					=> '数字1文字<code>0-9</code>',
+	'v_upr_symbol' 					=> '記号1文字',
 	'v_upr_space' 					=> '半角スペース',
 	'v_upr_label'					=> 'パスワードの条件',
 	'v_upr_load_error'				=> 'パスワード規則を読み込む際にエラーが発生しました。',
-	'v_cpwd_does_not_check_upr'		=> 'パスワードが条件を満たしていない。',
+	'v_cpwd_does_not_check_upr'		=> 'パスワードが条件を満たしていません。',
 	'field_new_pwd'					=> '新しいパスワード',
-	'field_repeat_new_pwd'			=> '新しいパスワードを繰り返す',
+	'field_repeat_new_pwd'			=> '新しいパスワードをもう一度入力してください',
 	// ** Same as in users_lang **
 
-	'v_fpr_invalid_inactive_user'	=> 'ユーザが有効でないか、非アクティブです。',
+	'v_fpr_invalid_inactive_user'	=> 'ユーザーが有効でないか、非アクティブです。',
 
 
 	// v15
-	'v_login_forgot_pwd'			=> 'チームパスワードマネージャーパスワードをお忘れですか？', // replaces previous v_login_forgot_pwd
+	'v_login_forgot_pwd'			=> 'Team Password Manager: パスワードをお忘れですか', // replaces previous v_login_forgot_pwd
 
 	// v16
-	'v_login_remember_me'			=> 'リメンバー・ミー',
+	'v_login_remember_me'			=> 'ログイン状態を保持する',
 
 	// v17
 	'v_login_forgot_pwd'			=> 'パスワードをお忘れですか？', // replaces previous v_login_forgot_pwd
-	'v_login_forgot_pwd_mail'		=> 'チームパスワードマネージャーパスワードをお忘れですか？', // replaces previous v_login_forgot_pwd
+	'v_login_forgot_pwd_mail'		=> 'Team Password Manager: パスワードをお忘れですか', // replaces previous v_login_forgot_pwd
 
 
 
