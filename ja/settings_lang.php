@@ -364,7 +364,7 @@ $lang = array (
 	'v_set_ei_help_link'			=> 'ヘルプ',
 
 	'v_set_imp_sel_file'			=> 'インポートするパスワードを含むファイルを選択する。',
-	'v_set_imp_csv_ext'				=> 'CSV拡張機能',
+	'v_set_imp_csv_ext'				=> 'CSV拡張子',
 	
 	'v_set_imp_select_parent_btn'	=> 'ペアレント［PRJ]を選択する',	
 	'v_set_imp_current_parent'		=> '現在選択済み',
