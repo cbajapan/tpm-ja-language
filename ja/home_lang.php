@@ -647,21 +647,21 @@ $lang = array (
 	'pwde_ess_no_longer_valid' 	=> 'この日を過ぎると外部共有は無効になります（オプション）',
 	'pwde_protect_external_view' => '外観を保護する（オプション）',
 
-	'vpwd_share_ext_notes22'	=> '期限切れの外部共有パスワードには、代わりにこのアイコンが表示される。',
+	'vpwd_share_ext_notes22'	=> '期限切れの外部共有パスワードには、代わりにこのアイコンが表示されます。',
 
 	// v9
 	'vpwd_link_title' 			=> 'パスワードを別の[PRJ]にリンクする',
 	'vpwd_link' 				=> 'リンク',
 	'c_prj_link_pwd_select_prj'	=> '[PRJ]を選択し、パスワードとリンクさせる。',
-	'c_prj_link_pwd_grayed'		=> '[PRJS]パスワードのリンク先がグレーになっている',
-	'c_pwd_link_pwd'			=> 'リンクパスワード',
+	'c_prj_link_pwd_grayed'		=> '[PRJS]パスワードのリンク先がグレーになっています。',
+	'c_pwd_link_pwd'			=> 'パスワードをリンク',
 	'c_pwd_link_pwd_locked'		=> 'このパスワードはロックされています。リンクするにはロックを解除する必要があります。',
 	'c_pwd_link_pwd_linked_error' => 'パスワードはリンクされましたが、このようなエラーが発生しました。',
 	'c_pwd_link_pwd_error'		=> 'パスワードのリンクにエラーが発生しました。',
 	'c_pwd_link_pwd_cannot' 	=> 'このパスワードは以下の理由でリンクできません。',
 	'c_pwd_link_pwd_csrf'		=> 'パスワードがリンクされていません（CSRF検証）。もう一度お試しください。',
 	'c_pwd_link_pwd_manage'		=> 'パスワードをリンクするには、パスワードの管理権限が必要です。',
-	'v_pwd_linked_password'		=> 'リンクパスワード',
+	'v_pwd_linked_password'		=> 'リンクされたパスワード',
 	'v_pwd_source_password'		=> 'ソースパスワード',
 	'v_pwd_go_to_source_password' => 'ソースパスワードへ',
 	'vpwd_tab_linked_passwords' => 'リンクされたパスワード', // Tab in passwords
@@ -669,7 +669,7 @@ $lang = array (
 	'vpwd_not_linked_passwords'	=> 'このパスワードには、リンクされたパスワードはありません。',
 	'vpwd_not_perm_linked_passwords' => 'リンクされたパスワードを閲覧する十分な権限がありません。',
 	'v_pwd_linked_pwd_from' 	=> 'このパスワードは以下の[PRJS]からリンクされています：',
-	'vpwd_linked_actions'		=> '行動',
+	'vpwd_linked_actions'		=> 'アクション',
 	'vpwd_linked_passwords_list_error' => 'このパスワードのリンク先パスワードの取得にエラーが発生しました。',
 	'v_pwd_linked_prj_no_access' => '(この[PRJ]にはアクセスできません)',
 	'v_pwd_goto_linked_password' => 'リンクされたパスワードへ',
@@ -683,72 +683,72 @@ $lang = array (
 	'c_pwd_linked_cannot_move' 	=> 'これはリンクされたパスワードです。リンクされたパスワードは移動できません。',
 	'c_pwd_linked_cannot_link' 	=> 'これはリンクされたパスワードです。リンクされたパスワードはリンクできません。',
 
-	'c_pwd_move_pwd_archived' 	=> 'このパスワードは、[PRJ]が<span class="label label-warning tpm-archived">アーカイブされている</span>ため、移動できません。',
-	'c_pwd_link_pwd_archived' => 'その[PRJ]は<span class="label label-warning tpm-archived">アーカイブされている</span>ため、このパスワードを別の[PRJ]にリンクすることはできません。',
+	'c_pwd_move_pwd_archived' 	=> 'このパスワードは、[PRJ]が<span class="label label-warning tpm-archived">Archived</span>ため、移動できません。',
+	'c_pwd_link_pwd_archived' => 'その[PRJ]は<span class="label label-warning tpm-archived">Archived</span>ため、このパスワードを別の[PRJ]にリンクすることはできません。',
 
 	'v_pwd_sec_linked_notes'	=> 'リンクされたパスワードは読み取り専用なので、ユーザーがパスワードの編集/管理権限を持っていても、編集することはできません。',
-	'vpwd_sec_help_manage_linked' => 'リンクされたパスワードは読み取り専用なので編集できないことに注意。',
+	'vpwd_sec_help_manage_linked' => 'リンクされたパスワードは読み取り専用なので編集できないことにご留意ください。',
 
-	'c_pwd_unlink_pwd'			=> 'パスワードの解除',
-	'vpwd_unlink_pwd_conf1'		=> 'このパスワードを解除しますか？',
+	'c_pwd_unlink_pwd'			=> 'パスワードのリンクを解除',
+	'vpwd_unlink_pwd_conf1'		=> 'このパスワードのリンクを解除しますか？',
 	'c_pwd_unlink_pwd_locked'	=> 'このパスワードはロックされています。解除するにはロックを解除する必要があります。',
-	'c_pwd_unlink_pwd_archived'	=> 'このパスワードは、[PRJ]が<span class="label label-warning tpm-archived">アーカイブされている</span>ため、リンクを解除できません。',
+	'c_pwd_unlink_pwd_archived'	=> 'このパスワードは、[PRJ]が<span class="label label-warning tpm-archived">Archived</span>ため、リンクを解除できません。',
 	'c_pwd_unlink_pwd_perm'		=> 'このパスワードのリンクを解除するのに必要な権限がありません（管理権限が必要です）。',
 	'c_pwd_notlinked_cannot_unlink' => 'これはリンクされたパスワードではないので、リンクを解除することはできません。',
-	'c_pwd_unlink_pwd_error'	=> 'エラー: パスワードが<strong>違う</strong>データベースエラーによりリンクが解除された。',
+	'c_pwd_unlink_pwd_error'	=> 'エラー: パスワードが<strong>NOT</strong>データベースエラーによりリンクが解除された。',
 
 	'vpwd_pwd_unlinked'			=> 'パスワードのリンクが解除されました。',
-	'c_pwd_link_pwd_not_enabled' => 'リンクされたパスワードの作成が有効になっていない',
+	'c_pwd_link_pwd_not_enabled' => 'リンクされたパスワードの作成が有効になっていません。',
 
 	// v10
 	'vpwd_archive'				=> 'アーカイブ',
 	'vpwd_archive_title'		=> 'このパスワードをアーカイブする',
 	'vpwd_archived'				=> 'アーカイブ',
 
-	'c_pwd_pwdarchived_edit'	=> 'このパスワードは<span class="label label-warning tpm-archived">アーカイブされているため編集できません。',
-	'c_pwd_edit_pwd_sec_pwdarchived'=> 'このパスワードは<span class="label label-warning tpm-archived">アーカイブされているため、パスワードのセキュリティを変更できません</span>。',
-	'c_pwd_edit_pwd_locking_pwdarchived' => 'このパスワードは<span class="label label-warning tpm-archived">アーカイブ</span>されているため、パスワードロックを変更できません。',
-	'c_pwd_delete_pwd_pwdarchived'	=> 'このパスワードは<span class="label label-warning tpm-archived">アーカイブ</span>されているため、削除できません。',
-	'c_pwd_unlink_pwd_pwdarchived'	=> 'このパスワードは<span class="label label-warning tpm-archived">アーカイブ</span>されているため、リンクを解除できません。',
-	'c_pwd_move_pwd_pwdarchived' 	=> 'このパスワードは<span class="label label-warning tpm-archived">アーカイブ</span>されているため、移動できません。',
-	'c_pwd_link_pwd_pwdarchived' => '<span class="label label-warning tpm-archived">アーカイブされている</span>ため、このパスワードを別の[PRJ]にリンクすることはできません。',
-	'c_pwd_cf_config_pwdarchived' 	=> 'パスワードのカスタムフィールド設定は、<span class="label label-warning tpm-archived">アーカイブ</span>されているため、変更できません。',
-	'c_pwd_ext_sharing_pwdarchived'=> '<span class="label label-warning tpm-archived">アーカイブされている</span>ため、このパスワードの外部共有は編集できません。',
+	'c_pwd_pwdarchived_edit'	=> 'このパスワードは<span class="label label-warning tpm-archived">Archived</span>されているため編集できません。',
+	'c_pwd_edit_pwd_sec_pwdarchived'=> 'このパスワードは<span class="label label-warning tpm-archived">Archived</span>されているため、パスワードのセキュリティを変更できません。',
+	'c_pwd_edit_pwd_locking_pwdarchived' => 'このパスワードは<span class="label label-warning tpm-archived">Archived</span>されているため、パスワードロックを変更できません。',
+	'c_pwd_delete_pwd_pwdarchived'	=> 'このパスワードは<span class="label label-warning tpm-archived">Archived</span>されているため、削除できません。',
+	'c_pwd_unlink_pwd_pwdarchived'	=> 'このパスワードは<span class="label label-warning tpm-archived">Archived</span>されているため、リンクを解除できません。',
+	'c_pwd_move_pwd_pwdarchived' 	=> 'このパスワードは<span class="label label-warning tpm-archived">Archived</span>されているため、移動できません。',
+	'c_pwd_link_pwd_pwdarchived' => '<span class="label label-warning tpm-archived">Archived</span>ため、このパスワードを別の[PRJ]にリンクすることはできません。',
+	'c_pwd_cf_config_pwdarchived' 	=> 'パスワードのカスタムフィールド設定は、<span class="label label-warning tpm-archived">Archived</span>されているため、変更できません。',
+	'c_pwd_ext_sharing_pwdarchived'=> '<span class="label label-warning tpm-archived">Archived</span>ため、このパスワードの外部共有は編集できません。',
 
-	'c_pwd_archive_pwd'			=> 'アーカイブパスワード',
+	'c_pwd_archive_pwd'			=> 'パスワードをアーカイブ',
 	'c_pwd_archive_pwd_locked'	=> 'このパスワードはロックされています。アーカイブするにはロックを解除する必要があります。',
-	'c_pwd_archive_pwd_pwdarchived'	=> 'このパスワードはすでに<span class="label label-warning tpm-archived">アーカイブされているため、アーカイブできません</span>。',
-	'c_pwd_archive_pwd_archived'	=> 'このパスワードは、[PRJ]が<span class="label label-warning tpm-archived">アーカイブ済み</span>であるため、アーカイブできません。',
+	'c_pwd_archive_pwd_pwdarchived'	=> 'このパスワードはすでに<span class="label label-warning tpm-archived">Archived</span>されているため、アーカイブできません。',
+	'c_pwd_archive_pwd_archived'	=> 'このパスワードは、[PRJ]が<span class="label label-warning tpm-archived">Archived</span>であるため、アーカイブできません。',
 	'c_pwd_archive_pwd_perm'		=> 'このパスワードをアーカイブするのに必要な権限がありません（管理権限が必要です）。',
 
 	'vpwd_archive_pwd_conf1'		=> 'このパスワードをアーカイブしますか？',
 	'vpwd_unarchive_pwd_conf1'		=> 'このパスワードのアーカイブを解除しますか？',
 	'vpwd_archive_pwd_conf2'		=> 'アーカイブされたパスワードは変更できません。',
 
-	'c_pwd_archive_pwd_error' 		=> 'エラー: パスワードが<strong>違う</strong>データベースエラーによりアーカイブされた。',
+	'c_pwd_archive_pwd_error' 		=> 'エラー: パスワードが<strong>NOT</strong>データベースエラーによりアーカイブされた。',
 
 	'vpwd_unarchive_title'			=> 'このパスワードのアーカイブを解除する',
-	'vpwd_unarchive'				=> 'アン・アーカイブ',
+	'vpwd_unarchive'				=> 'アーカイブを解除',
 
-	'c_pwd_unarchive_pwd'			=> 'パスワードのアーカイブ解除',
+	'c_pwd_unarchive_pwd'			=> 'パスワードのアーカイブを解除',
 	'c_pwd_unarchive_pwd_locked'	=> 'このパスワードはロックされています。アーカイブを解除するには、ロックを解除する必要があります。',
 	'c_pwd_unarchive_pwd_perm'		=> 'このパスワードをアーカイブ解除するのに必要な権限がありません（管理権限が必要です）。',
-	'c_pwd_unarchive_pwd_archived'	=> 'このパスワードは、[PRJ]が<span class="label label-warning tpm-archived">アーカイブ済み</span>であるため、アーカイブを解除できません。',
-	'c_pwd_unarchive_pwd_not_archived' => '<span class="label label-warning tpm-archived">アーカイブされていない</span>ため、このパスワードはアーカイブ解除できません。',
+	'c_pwd_unarchive_pwd_archived'	=> 'このパスワードは、[PRJ]が<span class="label label-warning tpm-archived">Archived</span>であるため、アーカイブを解除できません。',
+	'c_pwd_unarchive_pwd_not_archived' => '<span class="label label-warning tpm-archived">Archived</span>ではないため、このパスワードはアーカイブ解除できません。',
 
-	'c_pwd_unarchive_pwd_error' 		=> 'エラー: パスワードが<strong>違う</strong>データベースのエラーによりアーカイブされなかった。',
+	'c_pwd_unarchive_pwd_error' 		=> 'エラー: パスワードが<strong>NOT</strong>データベースのエラーによりアーカイブされませんでした。',
 
 	'v_security_configuration'		=> 'セキュリティ設定',
 	'v_user_permissions'			=> 'ユーザー権限',
 	'v_group_permissions'			=> 'グループ権限',
-	'v_show_users_with_permission'	=> 'パーミッションを持っているユーザーを表示する',
+	'v_show_users_with_permission'	=> '権限を持っているユーザーを表示する',
 	'v_show_all_users'				=> 'すべてのユーザーを表示する',
-	'v_show_groups_with_permission'	=> 'パーミッションを持つグループを表示する',
+	'v_show_groups_with_permission'	=> '権限を持つグループを表示する',
 	'v_show_all_groups'				=> 'すべてのグループを表示',
-	'vprj_project_permissions'		=> '[PRJ] パーミッション',
+	'vprj_project_permissions'		=> '[PRJ] 権限',
 
 	// Changed vprj_edit_sec_only_pm_adm
-	'vprj_edit_sec_only_pm_adm'		=> '現在、この[PRJ]にアクセスできるのは、[PRJ]マネージャーとアドミンユーザーのみである。',
+	'vprj_edit_sec_only_pm_adm'		=> '現在、この[PRJ]にアクセスできるのは、[PRJ]管理者とadminユーザーのみである。',
 
 	'v_set_perm_bulk_users'			=> '選択したユーザーにアクセス許可を設定する',
 	'v_set_perm_bulk_groups'		=> '選択したグループにアクセス許可を設定する',
@@ -756,14 +756,14 @@ $lang = array (
 	'vpwd_password_permissions'		=> 'パスワード許可',
 
 	// v12
-	'vfiles_info'					=> 'インフォメーション',
+	'vfiles_info'					=> '情報',
 	'vpwd_secret_key'				=> 'シークレット・キー',
 	'vpwd_get_otp_value'			=> '値を取得する',
 
 	// v15
 	'm_pwd_trash_not_found'			=> 'パスワードが見つかりません',
-	'm_pwd_trash_not_linked'		=> 'リンクされたパスワードは削除できない',
-	'm_pwd_trash_prj_not_found'		=> '[PRJ]が見つからない',
+	'm_pwd_trash_not_linked'		=> 'リンクされたパスワードは削除できません',
+	'm_pwd_trash_prj_not_found'		=> '[PRJ]が見つかりません',
 	'm_pwd_trash_error_unlink'		=> 'パスワードのリンク解除エラー',
 	'c_pwd_trash_pwd_error'			=> 'パスワードのゴミ箱への移動エラー：',
 	'm_pwd_trash_error_transaction'	=> 'トランザクションのエラー',
@@ -771,18 +771,18 @@ $lang = array (
 	'vpwd_trash_pwd_conf1'			=> 'このパスワードをゴミ箱に移動しますか？',
 
 	'vprj_tab_trash_bin'			=> 'ゴミ箱',
-	'vprj_trash_no_entries'			=> 'この[PRJ]のゴミ箱は空っぽだ',
-	'vtrash_list_sort_deleted'		=> 'クリックすると削除日でソートされます。',
+	'vprj_trash_no_entries'			=> 'この[PRJ]のゴミ箱は空です',
+	'vtrash_list_sort_deleted'		=> 'クリックすると削除日で並び替えられます。',
 	'vtrash_list_deleted'			=> '削除',
 	'vtrash_deleted_by'				=> '削除者',
 	'vtrash_by'						=> 'による',
-	'vtrash_pwd_not_shown'			=> 'ゴミ箱に入らない',
+	'vtrash_pwd_not_shown'			=> 'ゴミ箱に表示されていません',
 	'vtrash_pwd_list_basic_data'	=> '基本データ',
-	'vtrash_actions'				=> '行動',
-	'vtrash_restore'				=> 'リストア',
-	'vtrash_delete_permanently'		=> '永久削除',
+	'vtrash_actions'				=> 'アクション',
+	'vtrash_restore'				=> '復元',
+	'vtrash_delete_permanently'		=> '永久に削除',
 	'v_trash_prj_title'				=> 'この[PRJ]のゴミ箱には %d 個のパスワードがあります：', // %d gets replaced by the number of passwords
-	'v_trash_prj_title_sing'		=> 'この[PRJ]のゴミ箱には1つのパスワードがある：',
+	'v_trash_prj_title_sing'		=> 'この[PRJ]のゴミ箱には1つのパスワードがあります：',
 	'vtrash_empty_project_trash_bin' => 'この[PRJ]のゴミ箱を空にする。',
 	'c_pwd_delperm_pwd'				=> 'パスワードの永久削除',
 	'c_pwd_not_found_trash_delperm'	=> 'このパスワードはゴミ箱に入っていないか、永久に削除する権限がありません。',
@@ -790,28 +790,28 @@ $lang = array (
 	'vpwd_delperm_conf1'			=> 'このパスワードを永久に削除しますか？',
 	'c_pwd_delperm_pwd_error'		=> 'パスワードの永久削除エラー：',
 	'c_pwd_delperm_ok'				=> 'パスワードは永久に削除されました。',
-	'm_pwd_trash_not_found_in_trash' => 'ゴミ箱にパスワードが見つからない',
+	'm_pwd_trash_not_found_in_trash' => 'ゴミ箱にパスワードが見つかりません',
 	'c_pwd_restore_pwd'				=> 'パスワードの復元',
 	'vpwd_restore_conf'				=> 'このパスワードを復元しますか？',
 	'c_pwd_restore_pwd_error'		=> 'パスワードの復元エラー：',
 	'c_pwd_restore_ok'				=> 'パスワードが復元されました。',
-	'c_pwd_cannot_restore_same_name' => '[PRJ]に同じ名前の別のパスワードがあるため、パスワードを復元できない。',
+	'c_pwd_cannot_restore_same_name' => '[PRJ]に同じ名前の別のパスワードがあるため、パスワードを復元できません。',
 	'c_prj_empty_trash_bin'			=> '[PRJ]のゴミ箱を空にする',
 	'c_prj_empty_trash_bin_perm'	=> 'この[PRJ]のゴミ箱を空にするのに必要な権限がありません（管理権限が必要です）。',
 	'c_pwd_cannot_restore_archived'	=> '[PRJ] が <span class="label label-warning tpm-archived">Archived</span> であるため、パスワードを復元できません。',
-	'c_prj_empty_trash_bin_empty'	=> 'この[PRJ]のゴミ箱はすでに空っぽだ。',
-	'vprj_empty_trash_bin_project'	=> 'この[PRJ]のゴミ箱を空にする？',
+	'c_prj_empty_trash_bin_empty'	=> 'この[PRJ]のゴミ箱はすでに空です。',
+	'vprj_empty_trash_bin_project'	=> 'この[PRJ]のゴミ箱を空にしますか？',
 	'vprj_empty_trash_bin_project_note' => '警告：この操作を行うと、この[PRJ]のゴミ箱にあるすべてのパスワードが永久に削除されます。この操作は元に戻せません。',
-	'vpwd_trash_pwd_note_linked'	=> '<strong>注</strong>このパスワードにはリンクされているパスワードがあり、そのパスワードがゴミ箱に移動されるとリンクが解除されます。',
+	'vpwd_trash_pwd_note_linked'	=> '<strong>Note</strong>このパスワードにはリンクされているパスワードがあり、そのパスワードがゴミ箱に移動されるとリンクが解除されます。',
 
-	'm_prj_trash_not_leaf'			=> '[PRJ]はリーフ[PRJ]ではないので削除できない',
-	'vprj_del_has_pwd_not_linked'	=> 'この[PRJ]には以下のパスワードがある（リンクされていない）。',
-	'vprj_del_has_pwd_linked'		=> 'この[PRJ]には、以下のリンク・パスワードがある。',
+	'm_prj_trash_not_leaf'			=> '[PRJ]はリーフ[PRJ]ではないので削除できません。',
+	'vprj_del_has_pwd_not_linked'	=> 'この[PRJ]には以下のパスワードがあります。（リンクされていない）。',
+	'vprj_del_has_pwd_linked'		=> 'この[PRJ]には、以下のリンクされたパスワードがあります。',
 	'vprj_trash_confirm_pwds'		=> 'この[PRJ]とパスワードをゴミ箱に移動しますか？',
-	'vprj_trash_confirm_no_pwds'	=> 'この[PRJ]をゴミ箱へ？', 
-	'vprj_trash_note_linked'		=> '<strong>注</strong>PRJ]がゴミ箱に移動されると、リンクされたパスワードは解除されます。',
+	'vprj_trash_confirm_no_pwds'	=> 'この[PRJ]をゴミ箱へ移動しますか？', 
+	'vprj_trash_note_linked'		=> '<strong>Note</strong>[PRJ]がゴミ箱に移動されると、リンクされたパスワードは解除されます。',
 
-	'c_prj_delete_error'			=> '[PRJ]の削除エラー',
+	'c_prj_delete_error'			=> '[PRJ]の削除時にエラーが発生しました',
 
 	'c_tree_trash_bin'				=> 'ゴミ箱',
 
@@ -825,11 +825,11 @@ $lang = array (
 
 	'vtrash_list_sort_type'			=> 'クリックしてタイプ別に並べ替える',
 	'vtrash_type'					=> 'タイプ',
-	'vtrash_list_sort_name'			=> '名前をクリックするとソートされます。',
+	'vtrash_list_sort_name'			=> '名前をクリックすると並び替えられます。',
 	'vtrash_name'					=> '名称',
 	'vtrash_prj_parent'				=> '[PRJ]または親',
-	'vtrash_list_sort_pp'			=> 'CAP_PRJ]または[親]でソートする場合はクリックしてください。',
-	'vtrash_list_sort_user'			=> '要素を削除したユーザーでソートするにはクリックしてください。',
+	'vtrash_list_sort_pp'			=> '[CAP_PRJ]または親で並び替える場合はクリックしてください。',
+	'vtrash_list_sort_user'			=> '要素を削除したユーザーで並び替えるにはクリックしてください。',
 
 
 	'v_trash_element_pwd'			=> 'パスワード',
@@ -840,25 +840,25 @@ $lang = array (
 	'c_trash_delperm'				=> '永久削除',
 	'c_trash_not_found_delperm' 	=> 'この要素はゴミ箱にないか、永久に削除する権限がありません。',
 
-	'm_prj_trash_not_found_in_trash' => '[PRJ] ゴミ箱に見当たらない',
+	'm_prj_trash_not_found_in_trash' => '[PRJ]がゴミ箱に見当たらない',
 
-	'c_trash_delperm_prj'			=> '永久削除 [CAP_PRJ]',
+	'c_trash_delperm_prj'			=> '[CAP_PRJ]を永久に削除する',
 	'c_trash_not_found_trash_delperm_prj' => 'この[PRJ]はゴミ箱にないか、永久に削除する権限がありません。',
 
 	'vtrash_delperm_conf1_prj'		=> 'この[PRJ]とすべてのパスワードを永久に削除しますか？',
 
-	'c_trash_delperm_prj_ok'		=> '[PRJ]は永久に削除された。',
-	'c_trash_delperm_prj_error'		=> '[PRJ]の永久削除エラー：',
+	'c_trash_delperm_prj_ok'		=> '[PRJ]は永久に削除されました。',
+	'c_trash_delperm_prj_error'		=> '[PRJ]の永久に削除する過程でエラーが発生しました：',
 
-	'c_trash_restore'				=> 'リストア',
+	'c_trash_restore'				=> '復元',
 	'c_trash_not_found_restore' 	=> 'この要素はゴミ箱にないか、復元する権限がありません。',
 
-	'c_trash_restore_prj'			=> 'リストア[PRJ]',
+	'c_trash_restore_prj'			=> '[PRJ]復元',
 	'c_trash_not_found_trash_restore_prj' => 'この[PRJ]はゴミ箱に入っていないか、復元する権限がありません。',
 
 	'vtrash_restore_conf_prj'		=> 'この[PRJ]とすべてのパスワードを復元しますか？',
 
-	'c_trash_restore_pwd_archived' => 'パスワードを復元しようとしている[PRJ]は<span class="label label-warning tpm-archived">アーカイブされています</span>。パスワードを復元できるようにするには、アーカイブを解除してください。',
+	'c_trash_restore_pwd_archived' => 'パスワードを復元しようとしている[PRJ]は<span class="label label-warning tpm-archived">Archived</span>。パスワードを復元できるようにするには、アーカイブを解除してください。',
 
 	'c_trash_cannot_restore_pwd_permission' => '選択した[PRJ]にパスワードを作成できないため、このパスワードを復元することはできません。',
 
@@ -868,30 +868,30 @@ $lang = array (
 
 	'c_trash_restore_pwd_prj_needed' => 'このパスワードの[PRJ]が削除されたか、ゴミ箱に入っているため、このパスワードを復元するには新しい[PRJ]が必要です。ゴミ箱をリフレッシュして、再度復元をお試しください。',
 
-	'm_prj_trash_not_found_in_trash' => '[PRJ] ゴミ箱に見当たらない',
+	'm_prj_trash_not_found_in_trash' => '[PRJ]がゴミ箱で見つかりません',
 
 	'c_trash_restore_prj_select_prj1' => 'この[PRJ]の親が削除されたか、ゴミ箱にあります。この[PRJ]を復元する親を選択してください。',
-	'c_trash_restore_prj_select_prj2' => '[PRJ]をリストアできない親はグレーで表示されます。',
+	'c_trash_restore_prj_select_prj2' => '[PRJ]を復元できない親はグレーで表示されます。',
 	'c_trash_restore_prj_select_prj3' => '親を選択',
 
-	'c_prj_restore_cannot'			=> '[PRJS]を作成できない（適切なロールを持っていない）ため、[PRJS]をリストアできません。',
+	'c_prj_restore_cannot'			=> '[PRJS]を作成できない（適切なロールを持っていない）ため、[PRJS]を復元できません。',
 
-	'c_trash_restore_prj_parent_needed' => 'この[PRJ]の親が削除されたか、ゴミ箱にあるため、この[PRJ]を復元するには新しい親が必要です。ゴミ箱をリフレッシュして、復元をやり直してください。',
+	'c_trash_restore_prj_parent_needed' => 'この[PRJ]の親が削除されたか、ゴミ箱にあるため、この[PRJ]を復元するには新しい親が必要です。ゴミ箱をリフレッシュして、再度復元をお試しください。',
 
-	'c_trash_restore_prj_no_root'	=> 'rootで[PRJS]をリストアすることはできません。',
+	'c_trash_restore_prj_no_root'	=> 'rootで[PRJS]を復元することはできません。',
 
-	'c_trash_cannot_restore_prj_same_name' => '同じレベルに同じ名前の別の[PRJ]があるため、[PRJ]をリストアできない。',
+	'c_trash_cannot_restore_prj_same_name' => '同じレベルに同じ名前の別の[PRJ]があるため、[PRJ]を復元できません。',
 
-	'c_trash_restore_prj_ok'		=> '[PRJ]が復活した。',
-	'c_trash_restore_prj_error'		=> '[PRJ]のリストアエラー：',
+	'c_trash_restore_prj_ok'		=> '[PRJ]が復元されました。',
+	'c_trash_restore_prj_error'		=> '[PRJ]の復元エラー：',
 
 	'm_trash_empty_error_deleting_prj' => '[PRJ]IDの削除エラー',
 	'm_trash_empty_error_deleting_pwd' => 'パスワードIDの削除エラー',
 
 	'v_trash_empty_trash_bin'		=> 'ゴミ箱を空にする',
 	'c_trash_only_admins_can_empty'	=> 'ゴミ箱を空にできるのは、管理者ロールを持つユーザーだけです。',
-	'v_trash_empty_trash_bin_conf'	=> 'ゴミ箱を空にする？',
-	'c_trash_already_empty'			=> 'ゴミ箱はすでに空だ。',
+	'v_trash_empty_trash_bin_conf'	=> 'ゴミ箱を空にしますか？',
+	'c_trash_already_empty'			=> 'ゴミ箱はすでに空です。',
 	'v_trash_num_pwds'				=> 'ゴミ箱のパスワード数',
 	'v_trash_num_prjs'				=> 'ゴミ箱の[PRJS]の数',
 
@@ -900,39 +900,39 @@ $lang = array (
 	'vpwd_edit_access_note'			=> 'URLはカンマで区切って複数入力できます。',
 
 	// v19
-	'vbulk_manager'					=> 'セット・マネージャー',
-	'vbulk_password_selected'		=> 'パスワード選択',
+	'vbulk_manager'					=> '管理を設定',
+	'vbulk_password_selected'		=> '選択されたパスワード',
 	'vbulk_passwords_selected'		=> '選択されたパスワード',
 
 	'v_bulk_archive_pwds'			=> 'パスワードの一括アーカイブ',
 	'v_bulk_actions_prj_no_perm'	=> 'この[PRJ]で一括アクションを実行するのに必要な権限がありません（管理者である必要があります）。',
-	'v_bulk_actions_prj_archived'	=> 'この[PRJ]は<span class="label label-warning tpm-archived">アーカイブされています</span>。',
+	'v_bulk_actions_prj_archived'	=> 'この[PRJ]は<span class="label label-warning tpm-archived">Archived</span>。',
 
 	'v_bulk_num_passwords_selected'	=> '選択されたパスワードの数：',
 
 	'v_bulk_archive_pwds_confirm'	=> '選択したパスワードをアーカイブしますか？',
 
-	'm_bulk_action_no_pwds'			=> 'バルクアクションを実行するためのパスワードはありません。',
+	'm_bulk_action_no_pwds'			=> '一括操作を実行するためのパスワードがありません。',
 
-	'm_bulk_pwd_not_found_desc'		=> '存在しないか、アクセスできない',
-	'm_bulk_pwd_not_in_prj'			=> '[PRJ]にはない',
-	'm_bulk_pwd_archived_already'	=> 'すでにアーカイブされている',
+	'm_bulk_pwd_not_found_desc'		=> '存在しないか、アクセスできません',
+	'm_bulk_pwd_not_in_prj'			=> '[PRJ]にはありません',
+	'm_bulk_pwd_archived_already'	=> 'すでにアーカイブされています',
 	'm_bulk_pwd_archived'			=> 'アーカイブ',
 	'm_bulk_pwd_locked'				=> 'ロック',
-	'm_bulk_pwd_permissions'		=> 'パーミッションが足りない。',
-	'm_bulk_pwd_error_archiving'	=> 'エラーアーカイブ',
+	'm_bulk_pwd_permissions'		=> '権限が足りません。',
+	'm_bulk_pwd_error_archiving'	=> 'アーカイブ時にエラー',
 
 	'm_bulk_num_pwd_archived'		=> 'アーカイブされたパスワードの数',
 	'm_bulk_pwds_not_archived'		=> '以下のパスワードはアーカイブされていません。',
 
-	'c_bulk_action_error'			=> '一括アクションエラー',
+	'c_bulk_action_error'			=> '一括操作エラー',
 
 	'v_bulk_unarchive_pwds'			=> 'パスワードの一括アーカイブ解除',
 
 	'v_bulk_unarchive_pwds_confirm'	=> '選択したパスワードのアーカイブを解除しますか？',
 
-	'm_bulk_pwd_unarchived'			=> 'すでに未アーカイブ',
-	'm_bulk_pwd_error_unarchiving'	=> 'アーカイブ解除エラー',
+	'm_bulk_pwd_unarchived'			=> 'アーカイブ解除済み',
+	'm_bulk_pwd_error_unarchiving'	=> 'アーカイブ解除時にエラー',
 
 	'm_bulk_num_pwd_unarchived'		=> 'アーカイブされていないパスワードの数',
 	'm_bulk_pwds_not_unarchived'	=> '以下のパスワードはアーカイブが解除されていません。',
@@ -940,7 +940,7 @@ $lang = array (
 	'v_bulk_delete_pwds'			=> 'パスワードの一括削除',
 
 	'v_bulk_delete_pwds_confirm'	=> '選択したパスワードをゴミ箱に移動しますか？',
-	'v_bulk_delete_pwds_note'		=> '<strong>注</strong>選択されたパスワードがリンクされている場合、リンクは解除されます。',
+	'v_bulk_delete_pwds_note'		=> '<strong>Note</strong>：選択されたパスワードがリンクされている場合、リンクは解除されます。',
 
 	'm_bulk_pwd_linked'				=> 'リンクされている（リンクは解除されなければならない。）',
 
@@ -966,26 +966,26 @@ $lang = array (
 
 	'c_bulk_prj_select_prj'			=> '[PRJ]を選択する。',
 
-	'v_bulk_destination_project'	=> '行き先 [PRJ]',
+	'v_bulk_destination_project'	=> '宛先[PRJ]',
 
-	'v_bulk_copy_pwds_confirm'		=> '選択したパスワードをコピー先[PRJ]にコピーしますか？',
+	'v_bulk_copy_pwds_confirm'		=> '選択したパスワードを宛先[PRJ]にコピーしますか？',
 
 	'm_bulk_pwd_linked_copy'		=> 'リンク済み（コピー不可）',
 
-	'm_bulk_pwd_copy_exists'		=> 'デスティネーション[PRJ]にすでに存在する',
+	'm_bulk_pwd_copy_exists'		=> '宛先[PRJ]にすでに存在します',
 
 	'm_bulk_num_pwd_copied'			=> 'コピーされたパスワードの数',
 	'm_bulk_pwds_not_copied'		=> '以下のパスワードはコピーされていません。',
 
-	'm_bulk_pwd_error_copying'		=> 'エラーコピー',
-	'm_bulk_pwd_copied_with_error'	=> 'エラーコピー',
+	'm_bulk_pwd_error_copying'		=> 'コピー時にエラー',
+	'm_bulk_pwd_copied_with_error'	=> 'コピー時にエラー',
 
-	'v_bulk_destination_open'		=> '<strong>注</strong>バルクアクションを実行すると、デスティネーション[PRJ]に移動します。',
+	'v_bulk_destination_open'		=> '<strong>Note</strong>：一括操作を実行すると、宛先[PRJ]に移動します。',
 
 	'c_bulk_prj_move_pwds_select_prj' => '[PRJ]を選択し、パスワードを一括移動する。',
 	'c_bulk_prj_move_pwds'			=> 'パスワードの一括移動',
 
-	'v_bulk_move_pwds_confirm'		=> '選択したパスワードを移動先[PRJ]に移動しますか？',
+	'v_bulk_move_pwds_confirm'		=> '選択したパスワードを宛先[PRJ]に移動しますか？',
 
 	'm_bulk_pwd_linked_move'		=> 'リンク済み（移動不可）',
 
@@ -998,15 +998,15 @@ $lang = array (
 
 	'v_bulk_setmgr_pwds_confirm'	=> '選択したパスワードの管理者を選択したユーザーに設定しますか？',
 
-	'c_bulk_setmgr_incorrect_mgr'	=> '選択されたユーザーはマネージャになれないか、存在しません。',
+	'c_bulk_setmgr_incorrect_mgr'	=> '選択されたユーザーは管理者になれないか、存在しません。',
 
-	'm_bulk_pwd_error_setmgr'		=> 'マネージャー設定エラー',
+	'm_bulk_pwd_error_setmgr'		=> '管理者設定エラー',
 
-	'm_bulk_num_pwd_setmgr'			=> 'マネージャーが設定されたパスワードの数',
-	'm_bulk_pwds_not_setmgr'		=> '以下のパスワードのマネージャーを設定することはできませんでした。',
+	'm_bulk_num_pwd_setmgr'			=> '管理者が設定されたパスワードの数',
+	'm_bulk_pwds_not_setmgr'		=> '以下のパスワードの管理者を設定することはできませんでした。',
 
 	'v_bulk_cfields_pwds'			=> 'カスタムフィールドの一括編集 パスワードの設定',
-	'v_bulk_use_configuration'		=> '使用構成',
+	'v_bulk_use_configuration'		=> '使用設定',
 
 	'v_bulk_cfields_pwds_confirm'	=> '選択したパスワードのカスタムフィールド設定を上記のものに設定しますか？',
 
@@ -1019,8 +1019,8 @@ $lang = array (
 
 	'm_bulk_pwd_linked_cfields'		=> 'リンク済み（カスタムフィールドの設定を編集できない）',
 
-	'v_bulk_action_results'			=> '一括アクションの結果',
-	'v_bulk_action_confirm'			=> '一括アクション確認',
+	'v_bulk_action_results'			=> '一括操作の結果',
+	'v_bulk_action_confirm'			=> '一括操作を確認',
 
 
 );
