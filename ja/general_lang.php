@@ -3,11 +3,11 @@ $lang = array (
 
 	// Language to use in headers of html pages (<html lang="XX">)
 	// See: https://www.w3.org/International/questions/qa-html-language-declarations.en
-	'html_lang'					=> 'en',
+	'html_lang'					=> 'ja',
 
 	// Locale for the datepicker component
 	// See all the locales here: /css/js/datepicker/js/locales
-	'datepicker_locale'			=> 'en',
+	'datepicker_locale'			=> 'ja',
 	'datepicker_weekstart'		=> 0, // 0=Sunday, 1=Monday, etc.
 
 	'prj' 						=> 'プロジェクト',
