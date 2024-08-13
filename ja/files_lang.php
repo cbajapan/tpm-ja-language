@@ -9,9 +9,9 @@ $lang = array (
 	'c_files_pwd_prj_not_exist'		=> 'このパスワード/[PRJ]が存在しないか、アクセスできません。',
 	'c_files_pwd_not_exist'			=> 'パスワードが存在しないか、アクセスできません。',
 	'c_files_prj_not_exist' 		=> '[PRJ]が存在しないか、アクセスできません。',
-	'c_files_upload_pwd_archived'	=> '[PRJ]が<span class="label label-warning tpm-archived">Archived</span>.であるため、このパスワードにファイルをアップロードすることはできません。',
+	'c_files_upload_pwd_archived'	=> '[PRJ]が<span class="label label-warning tpm-archived">アーカイブ</span>.であるため、このパスワードにファイルをアップロードすることはできません。',
 	'c_files_upload_pwd_perm' 		=> 'このパスワードにファイルをアップロードすることはできません（データの編集または管理権限が必要です）。',
-	'c_files_upload_prj_archived'	=> '<span class="label label-warning tpm-archived">Archived</span>.であるため、このパスワードにファイルをアップロードすることはできません。',
+	'c_files_upload_prj_archived'	=> '<span class="label label-warning tpm-archived">アーカイブ</span>.であるため、このパスワードにファイルをアップロードすることはできません。',
 	'c_files_upload_prj_perm' 		=> 'この[PRJ]にはファイルをアップロードできません（管理権限が必要です）。',
 	'c_files_upload_cannot_create_folder' => 'フォルダを作成できませんでした。アップロードフォルダの権限を確認してください。ファイルをアップロードできませんでした。',
 	'c_files_upload_max_size_exceeded' => '最大ファイルサイズを超えました。',
@@ -65,7 +65,7 @@ $lang = array (
 	'c_files_linked_cannot_del_files' => 'これはリンクされたパスワードです。リンクされたパスワードのファイルは削除できません。',
 
 	// v10
-	'c_files_upload_pwd_pwdarchived'	=> '<span class="label label-warning tpm-archived">Archived</span>.のため、このパスワードにファイルをアップロードすることはできません。',
+	'c_files_upload_pwd_pwdarchived'	=> '<span class="label label-warning tpm-archived">アーカイブ</span>.のため、このパスワードにファイルをアップロードすることはできません。',
 
 	// v12
 	'c_files_files_info_title'		=> 'ファイル情報',
