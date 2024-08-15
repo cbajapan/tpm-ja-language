@@ -13,7 +13,7 @@ $lang = array (
 	'c_login_new_pwd'				=> '新しいパスワード',
 	'c_login_repeat_new_pwd'		=> '新しいパスワードをもう一度入力してください',
 
-	'c_login_reset_email_1'			=> 'パスワードの再設定方法を記載したEメールを送信しました。,
+	'c_login_reset_email_1'			=> 'パスワードの再設定方法を記載したEメールを送信しました。',
 	'c_login_reset_email_2'			=> '「ご自分のEメールをご確認ください。メッセージが見当たらない場合は、迷惑メールフォルダもご確認ください。」',
 	'c_login_reset_failed_1'		=> '入力されたアドレスへメールを送信する際にエラーが発生しました。',
 	'c_login_contact_admin'			=> '管理者にご連絡ください。',

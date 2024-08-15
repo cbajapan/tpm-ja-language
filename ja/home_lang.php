@@ -135,7 +135,7 @@ $lang = array (
 	'c_pwd_move_pwd_error'		=> 'パスワードの移動にエラーが発生しました。',
 	'c_pwd_move_pwd_cannot'		=> 'このパスワードは以下の理由で移動できません。',
 	'c_pwd_move_manage' 		=> 'パスワードを移動するには、パスワードの管理権限が必要です。',
-	'c_pwd_move_pwd_ro' 		=> ''読み取り専用のロールしかないため、パスワードの移動や作成はできません。',
+	'c_pwd_move_pwd_ro' 		=> '読み取り専用のロールしかないため、パスワードの移動や作成はできません。',
 	'c_pwd_move_pwd_csrf' 		=> 'パスワードが移動されていません（CSRF検証）。もう一度お試しください。',
 
 	'c_pwd_vrd_dup_files'		=> '重複ファイル',
@@ -194,7 +194,7 @@ $lang = array (
 	'vpwd_cf_instructions'		=> '必要なカスタムフィールドのラベルとタイプを入力します。注意：フィールドタイプを「カスタムフィールドを使用しない」に設定しても、そのフィールドのデータは削除されません（フィールドにデータがある場合）。',
 	'vpwd_cf_template'			=> 'テンプレート',
 	'vpwd_cf_select'			=> 'フィールドに記入するテンプレートを選択する',
-	'vpwd_cf_prj_template'		=> '* [PRJ] テンプレート*'
+	'vpwd_cf_prj_template'		=> '* [PRJ] テンプレート *',
 	'vpwd_cf_label'				=> 'ラベル',
 	'vpwd_cf_type'				=> 'タイプ',
 	'vpwd_cf_custom_field'		=> 'カスタムフィールド',
