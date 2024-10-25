@@ -131,7 +131,7 @@ $lang = array (
 	'c_set_return_2fa'				=> '二要素認証の設定に戻る',
 	'c_set_2fa_already_enabled'		=> '二要素認証はすでに有効になっています。',
 	'c_set_2fa_already_disabled'	=> '二要素認証はすでに無効になっています。',
-	'c_set_enforce_2fa'				=> '二要素認証の導入',
+	'c_set_enforce_2fa'				=> '二要素認証を導入する',
 	'c_set_stop_enforcing_2fa'		=> '二要素認証の強制停止',
 	'c_set_2fa_already_enforced'	=> '二要素認証はすでに全ユーザーに適用されています。',
 	'c_set_2fa_already_not_enforced'=> '二要素認証はすでに全ユーザーに適用されていません。',
@@ -457,7 +457,7 @@ $lang = array (
  	'v_set_ipb_return'				=> 'ブロックIPリストに戻る',
 
  	'v_set_ipb_new_btn'				=> 'ブロックする新しいIP',
- 	'v_set_ipb_search_btn'			=> '検索IP',
+ 	'v_set_ipb_search_btn'			=> 'IPを検索する',
 
  	'v_set_ipb_enter_ip'			=> 'ブロックするIPアドレスを入力します。保存後すぐに反映されます。',
  	'v_set_ipb_valid_ipv46'			=> '有効なIPv4またはIPv6アドレス',
@@ -558,10 +558,10 @@ $lang = array (
 
  	// Encrypt DB config
  	'v_set_edb_title'				=> 'config.phpでDBの設定を暗号化する',
- 	'v_set_edb_inst_to_encrypt' 	=> '暗号化したい場合は、以下のように<strong>config.php</strong>ファイル',
+ 	'v_set_edb_inst_to_encrypt' 	=> '暗号化したい場合は、以下のようにファイルを設定してください<strong>config.php</strong>',
  	'v_set_edb_inst_to_not_encrypt' => 'プレーンテキスト（暗号化されていない）で使用したい場合は、<strong>config.php</strong>ファイル内で次のようにしてください。',
- 	'v_set_edb_enter_instruction'	=> '次く指示を入力してください。',
- 	'v_set_edb_enter_next'			=> '次に、その次の指示を入力してください。',
+ 	'v_set_edb_enter_instruction'	=> '次の指示を入力してください。',
+ 	'v_set_edb_enter_next'			=> '続いて、その次の指示を入力してください。',
  	'v_set_edb_set_unencrypted'		=> '以下の定数を暗号化されていない値に設定する。',
  	'v_set_edb_example'				=> '例（安全のため、実際の値は示していない）',
 
@@ -625,7 +625,7 @@ $lang = array (
  	'v_set_cft_no_templates_search'	=> '現在の検索語を含むテンプレートはありません。',
  	'v_set_cft_no_templates'		=> 'テンプレートはない。',
  	'v_set_cft_new_template'		=> '新しいテンプレート',
- 	'v_set_cft_search_templates'	=> '検索テンプレート',
+ 	'v_set_cft_search_templates'	=> 'テンプレートを検索する',
  	'v_set_cft_sort_name'			=> '名前でソート',
  	'v_set_cft_sort_updated'		=> '更新日でソート',
  	'v_set_cft_name'				=> '名称',
@@ -665,7 +665,7 @@ $lang = array (
 	'v_set_api_sec'					=> 'APIセキュリティ',
 	'v_set_api_sec_all'				=> 'すべてのアクティブユーザーがAPIにアクセスできます',
 	'v_set_api_sec_ao'				=> 'アクティブな 「API専用」ユーザーのみがAPIにアクセスできます',
-	'v_set_api_sec_edit'			=> 'APIセキュリティの編集',
+	'v_set_api_sec_edit'			=> 'APIセキュリティを編集する',
 	'v_api_sec_edit_csrf_error'		=> 'APIセキュリティの編集でCSRFエラーが発生しました。',
 	'v_api_sec_edit_error'			=> 'APIセキュリティの編集でエラーが発生しました。',
 
