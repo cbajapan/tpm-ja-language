@@ -6,7 +6,7 @@ $lang = array (
 	'main_new_project' 			=> '新しい [PRJ]',
 	'main_search_results'		=> '検索結果',
 	'main_search_projects'		=> '[PRJS] 検索',
-	'main_search_passwords' 	=> 'パスワード検索',
+	'main_search_passwords' 	=> 'パスワードを検索する',
 	'main_adv_search_title'		=> '高度な検索',
 	'main_search'				=> '検索',
 	'main_search_any_field'		=> '任意のフィールド',
@@ -95,7 +95,7 @@ $lang = array (
 	'c_pwd_edit_pwd_sec_error'	=> 'パスワードセキュリティの編集エラーが発生しました。',
 
 	'c_pwd_vrel_locking'		=> 'ロック',
-	'c_pwd_edit_pwd_locking'	=> '編集パスワードロック',
+	'c_pwd_edit_pwd_locking'	=> 'パスワードロックを編集',
 	'c_pwd_edit_pwd_locking_locked'	=> 'このパスワードはロックされています。ロック状態を編集するには、ロックを解除する必要があります。',
 	'c_pwd_edit_pwd_locking_archived' => 'このパスワードの[PRJ]が<span class="label label-warning tpm-archived">アーカイブ</span>であるため、パスワードロックを変更できません。',
 	'c_pwd_edit_pwd_locking_eshared' => 'パスワードのロックは、パスワードが外部共有されているため変更できません。ロックを設定したい場合は、まず外部共有を編集し、外部共有しないように設定する必要があります。',
@@ -103,9 +103,9 @@ $lang = array (
 	'c_pwd_edit_pwd_locking_error' => 'パスワードロックの編集でエラーが発生しました',
 
 	'c_pwd_vrur'				=> '理由',
-	'c_pwd_unlock_pwd'			=> 'パスワードロック解除',
+	'c_pwd_unlock_pwd'			=> 'パスワードロックを解除',
 
-	'm_pwd_notif_unlocked'		=> 'パスワードロック解除',
+	'm_pwd_notif_unlocked'		=> 'パスワードロックを解除',
 	
 	'm_pwd_notif_desc'			=> '次のユーザーは、次のパスワードを解除しました。',
 	'm_pwd_notif_user'			=> 'ユーザー',
@@ -287,7 +287,7 @@ $lang = array (
 	'vpwd_filter_soon_expire'	=> 'フィルター期限切れ間近',
 	'vpwd_filter_project'		=> '[CAP_PRJ]で絞り込む',
 	'vpwd_filter_tag'			=> 'タグで絞り込む',
-	'vpwd_search_tags'			=> '検索タグ',
+	'vpwd_search_tags'			=> 'タグを検索する',
 
 	'vpwd_list_locked'			=> 'ロック',
 	'vpwd_list_shared_ext'		=> '外部共有',
@@ -775,7 +775,7 @@ $lang = array (
 	'vtrash_list_sort_deleted'		=> 'クリックすると削除日で並び替えられます。',
 	'vtrash_list_deleted'			=> '削除',
 	'vtrash_deleted_by'				=> '削除者',
-	'vtrash_by'						=> 'による',
+	'vtrash_by'						=> '削除者名',
 	'vtrash_pwd_not_shown'			=> 'ゴミ箱に表示されていません',
 	'vtrash_pwd_list_basic_data'	=> '基本データ',
 	'vtrash_actions'				=> 'アクション',
