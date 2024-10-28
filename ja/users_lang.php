@@ -177,7 +177,7 @@ $lang = array (
  	'v_users_sidebar_filter_state'	=> 'ステータスで絞り込む',
  	'v_users_sidebar_filter_role'	=> '役割で絞り込む',
  	'v_users_sidebar_filter_ldap_server' => 'LDAP/ADサーバーによるフィルタリング',
- 	'v_users_sidebar_filter_group'	=> 'グループによる絞り込み',
+ 	'v_users_sidebar_filter_group'	=> 'グループで絞り込む',
  	'v_users_sidebar_server'		=> 'サーバー',
 
  	'v_users_no_users_filter'		=> 'このフィルターまたは検索を使用しているユーザーはいません。',
