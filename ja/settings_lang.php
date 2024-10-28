@@ -773,7 +773,7 @@ $lang = array (
 	// v12
 	'c_set_import_csrf_error'		=> 'パスワードのインポートでCSRFエラーが発生しました。',
 	'c_set_pwd_reset_url_set'		=> 'パスワード再設定URLが設定されています。',
-	'c_set_pwd_reset_url_not_set'	=> 'パスワードリセットURLが設定されていない。',
+	'c_set_pwd_reset_url_not_set'	=> 'パスワードリセットURLが設定されていません。',
 	'v_set_pwd_reset_url'			=> 'パスワード再設定URL',
 	'v_set_set_pwd_reset_url'		=> 'パスワード再設定URLの編集',
 	'v_set_pwd_reset_info'			=> 'パスワード再設定URLは、<strong>パスワード・リセット・ポイズニング</strong>を防ぐために、パスワードのリセットに使用されるURLを生成する目的で、Hostヘッダーの代わりにこれを使用します。',
