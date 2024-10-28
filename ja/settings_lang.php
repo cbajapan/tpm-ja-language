@@ -435,7 +435,7 @@ $lang = array (
 
  	'v_set_ipb_listed'				=> 'ここにリストされたIPアドレスは、Team Password Managerのこのインストールにアクセスできません。',
  	'v_set_ipb_note_blocking'		=> 'ブロックの検証は「サインイン」画面でのみ行われるため、アドレスが追加されたときにすでにログインしているユーザーはブロックされません。',
- 	'v_set_ipb_no_ips_filter'		=> 'このフィルターや検索ではIPはありません。',
+ 	'v_set_ipb_no_ips_filter'		=> 'このフィルターや検索ではIPが見つかりません。',
 
  	'v_set_ipb_all_ips'				=> 'すべてのIP',
  	'v_set_ipb_search_results'		=> '検索結果',
