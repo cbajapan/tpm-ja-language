@@ -134,7 +134,7 @@ $lang = array (
 
  	'v_users_btn_new_user'			=> '新規ユーザー',
  	'v_users_btn_new_user_options'	=> '新規ユーザーオプション',
- 	'v_users_btn_search_users'		=> '検索ユーザー',
+ 	'v_users_btn_search_users'		=> 'ユーザーを検索',
 
  	'v_users_btn_new_user_desc'		=> '通常のユーザーを作成する。',
  	'v_users_btn_new_ldap_user'		=> '新しいLDAPユーザー',
