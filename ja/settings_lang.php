@@ -497,7 +497,7 @@ $lang = array (
  	'v_set_pgen_sym'				=> '記号',
  	'v_set_pgen_allowed_sym'		=> '使用可能な記号',
  	'v_set_pgen_test'				=> 'パスワード生成テスト',
- 	'v_set_pgen_gen10'				=> '上記の設定を使って10個のパスワードを生成する。',
+ 	'v_set_pgen_gen10'				=> '上記の設定を使って10個のパスワードを生成する',
  	'v_set_pgen_generated'			=> '生成されたパスワード',
 
  	'v_set_pgen_edit_desc'			=> '少なくとも1つの文字グループ（大文字、小文字、数字、記号）をチェックしてください。',
