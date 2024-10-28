@@ -663,7 +663,7 @@ $lang = array (
 
 	// v8
 	'v_set_api_sec'					=> 'APIセキュリティ',
-	'v_set_api_sec_all'				=> 'すべてのアクティブユーザーがAPIにアクセスできます',
+	'v_set_api_sec_all'				=> 'すべてのアクティブユーザーがAPIにアクセスできます。',
 	'v_set_api_sec_ao'				=> 'アクティブな 「API専用」ユーザーのみがAPIにアクセスできます',
 	'v_set_api_sec_edit'			=> 'APIセキュリティを編集する',
 	'v_api_sec_edit_csrf_error'		=> 'APIセキュリティの編集でCSRFエラーが発生しました。',
