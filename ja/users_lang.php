@@ -221,7 +221,7 @@ $lang = array (
  	'v_users_tab_passwords'			=> 'パスワード',
 
  	'v_users_last_signed_in'		=> '最終サインイン',
- 	'v_users_last_api_request'		=> '最終のAPIリクエスト',
+ 	'v_users_last_api_request'		=> '最終APIリクエスト',
  	'v_users_created_on'			=> '作成日',
  	'v_users_by'					=> '実行者',
  	'v_users_updated_on'			=> '更新日',
