@@ -460,4 +460,10 @@ $lang = array (
 	// v15
 	'c_users_del_error'				=> 'Error deleting user',
 
+	// v22
+	'v_aam_hmac_not_available'		=> 'HMAC authentication is not available.',
+	'v_users_hake_expiry_date'		=> 'Expiry date:',
+	'v_users_expired'				=> 'Expired',
+	'v_api_hake_incorrect_value'	=> 'Incorrect value for Days until API Keys expire, must be 0-999.', //=settings_lang
+	
 );

@@ -316,5 +316,12 @@ $lang = array (
 	'v_log_a_calculate_strength_start' 		=> 'Start Calculate Strength Process',
 	'v_log_a_calculate_strength_stop' 		=> 'Stop Calculate Strength Process',
 	'v_log_a_calculate_strength_finish' 	=> 'Finish Calculate Strength Process',
+
+	// v22
+	'v_log_a_edit_api_am' 			=> 'Edit API authentication method',
+	'v_log_a_edit_api_hake' 		=> 'Edit HMAC API Keys Expiration',
+	'v_log_a_count_log_list' 		=> 'Count number of log entries',
+
+	'v_log_a_calculate_strength_error' => 'Calculate Strength Process Error',
 	
 );

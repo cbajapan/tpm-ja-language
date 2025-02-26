@@ -884,4 +884,28 @@ $lang = array (
 
 	'v_set_pstren_calc_do_not_close_tab' => 'このタブを閉じると実行は停止します。',
 
+	// v22
+	'v_set_api_am'					=> 'API Authentication Method',
+	'v_set_api_am_explain'			=> 'Here you can set up the authentication method for the API.',
+	'v_set_api_am_help'				=> 'Click here to read the document explaining API authentication in Team Password Manager.',
+	'v_set_api_am_both'				=> 'HTTP Basic and HMAC',
+	'v_set_api_am_basic'			=> 'HTTP Basic',
+	'v_set_api_am_hmac'				=> 'HMAC',
+	'v_set_api_am_edit'				=> 'Edit API Authentication Method',
+	'v_api_am_edit_error'			=> 'There has been an error editing the API Authentication Method.',
+	'v_api_am_edit_csrf_error'		=> 'There has been a CSRF error editing the API Authentication Method.',
+
+	'v_set_api_hake'				=> 'HMAC API Keys Expiration',
+	'v_set_api_hake_edit'			=> 'Edit HMAC API Keys Expiration',
+	'v_set_api_hake_lblnoexp'		=> 'HMAC API Keys don\'t expire',
+	'v_set_api_hake_lblexp'			=> 'HMAC API Keys expire in %u days', // %u gets replaced by the number of days
+	'v_set_api_hake_days_lbl'		=> 'Days until API Keys expire',
+	'v_set_api_hake_disable'		=> 'Set to 0 to disable expiration.',
+	'v_set_api_hake_help_1'			=> 'Here you can configure the expiration of the HMAC API Keys.',
+	'v_set_api_hake_help_2'			=> 'Click here to read the document explaining HMAC API Keys expiration in Team Password Manager.',
+
+	'v_api_hake_edit_csrf_error'	=> 'There has been a CSRF error editing the HMAC API Keys Expiration.',
+	'v_api_hake_incorrect_value'	=> 'Incorrect value for Days until API Keys expire, must be 0-999.',
+	'v_api_hake_edit_error'			=> 'There has been an error editing the HMAC API Keys Expiration.',
+
 );

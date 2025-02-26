@@ -6,7 +6,7 @@
 $lang = array (
 	
 	// Version of the language files, it should match the one in the software (see Settings | Languages)
-	'lang_files_version'		=> 21,
+	'lang_files_version'		=> 22,
 
 	// Description of the language
 	'lang_description'			=> 'English',
